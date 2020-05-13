@@ -58,3 +58,32 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
+
+@media (max-width: 800px) {
+
+    body{
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .listbox {
+        width:  280px;
+        margin: 15px auto;
+    }
+
+    #item {
+        text-align: center;
+        width: 250px;
+    }
+
+
+
+
+}
